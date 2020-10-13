@@ -10,7 +10,7 @@ cache:
     - .cache
 
 script:
-    - npm run build
+    - CI=false npm run build
 
 deploy:
   provider: pages
